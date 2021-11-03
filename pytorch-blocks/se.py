@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 
 
-class SEConvBlock(nn.Module):
+class SEBlock(nn.Module):
     def __init__(self,
                  n_channels: int,
                  r: int = 16):
