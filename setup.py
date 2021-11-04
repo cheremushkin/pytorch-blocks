@@ -15,7 +15,6 @@ setup(
     author_email='',
     description='',
     install_requires=install_requires,
-    package_dir={'pytorch-blocks': 'pytorch-blocks'},
     package_data={},
     dependency_links=[],
     include_package_data=True,
