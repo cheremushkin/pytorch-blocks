@@ -6,7 +6,7 @@ with open('requirements.txt', 'r') as f:
 __version__ = '0.0.1'
 
 setup(
-    name='pytorch-blocks',
+    name='pytorch_blocks',
     version=__version__,
     packages=find_packages(),
     url='',
