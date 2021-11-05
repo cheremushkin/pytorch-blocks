@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open('requirements.txt', 'r') as f:
     install_requires = f.read().split('\n')
 
-__version__ = '0.0.3'
+__version__ = '0.0.4'
 
 setup(
     name='pytorch_blocks',
